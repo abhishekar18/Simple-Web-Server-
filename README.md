@@ -14,4 +14,10 @@ In this simple web server we have imported three packages -
            
  ![image](https://user-images.githubusercontent.com/68628209/180711708-01267c8d-36e0-4ebc-9792-0de3322f1039.png)
  
- The above diagram represents how this simple web server runs.
+ The above diagram represents the three routes from the server file
+ 
+ 1. / route - This file will simply open the index.html file
+ 2. /hello route - This route will execute the hello function which is written in the code.
+ 3. /form route - This will take us to a form, where we will be taking the input of the user's name and user's address and after that it will execute the form function, which will display the details that the user has filled in the form.
+
+These routes are written inside the "func main()" file.
